@@ -1,0 +1,78 @@
+
+</html><!DOCTYPE html> 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Integration de paypal</title>
+    <link  href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://www.paypal.com/sdk/js?client-id=AURvTPpQmo3DTl_3Wae0YreaAsj14C2kcrBpWwZoWS-NXBh4VC53IQQ2Bzm5Sz-GheVJ432Ojl5bC9j7"></script>
+    <link rel="stylesheet"  href="project.css">
+  </head>
+
+  <body>
+    
+    
+    <h1> MX4 CARS <img src="non.jpg" align="left" width="150px">    </h1>   
+    <body id="pay">
+    <header>
+   
+      <div class="mop">
+          <table align="center" border="0" >  
+              
+                
+                  
+      <tr>
+          <td> <a href="project.html"> ACCUEIL <img src="acc.png" width="60px" align="rigth"> </a></td>
+      <td>   <a href="login.html"> ESPACE CLIENT<img src="ins.jpg" width="50px" align="rigth"> </a></td> 
+      <td>    <a href="admistrateur.html">  ADMISTRATEUR  <img src="ad.jpg" width="50px" align="rigth"></a> </td>
+       <td><a href="conctact.html"> CONTACT <img src="co.png" width="50px" align="rigth"></a> </td>
+       
+      </tr>
+      
+          
+      
+             
+      </table>    
+       
+      </div>
+      
+      
+          
+      
+      </header>
+      <center>
+    <div id="paypal-button-container" >
+<center>
+<script >
+  
+    paypal.Buttons({
+        createOrder: function(data,actions){
+             return actions.order.create({
+              purchase_units:[{
+                amount:{
+                  value: '10' ,
+                }
+              }]
+
+             });
+    },
+        onApprove: function(data,actions){
+          return actions.order.capture().then(function(details){
+            alert("transaction ok:"+details.payer.name.given_name);
+          })
+            
+        } ,
+        onError: function(err){
+            console.error('Payment Error:',err);
+            alert("paiement non effectuer !");
+
+} ,
+       
+    }).render("#paypal-button-container");
+</script>
+</center>
+</div>
+</center>
+  </body>
+</html>

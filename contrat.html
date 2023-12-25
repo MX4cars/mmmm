@@ -1,0 +1,91 @@
+<html>
+
+ <head>
+    <title>INSCRIPTION</title>
+    
+   </title> 
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width ,initial-scale=1.0"> 
+   <link rel="stylesheet"  href="project.css">
+ </head>
+
+
+   
+   <body id="acceuile">
+    <h1> MX4 CARS <img src="non.jpg" align="left" width="150px">    </h1>
+   
+      <header>
+         
+        <div class="mop">
+            <table align="center" border="0" >  
+                
+                  
+                    
+        <tr>
+            <td> <a href="project.html"> ACCUEIL <img src="acc.png" width="60px" align="rigth"> </a></td>
+        <td>   <a href="login.html"> ESPACE CLIENT<img src="ins.jpg" width="50px" align="rigth"> </a></td> 
+        <td>    <a href="admistrateur.html">  ADMISTRATEUR  <img src="ad.jpg" width="50px" align="rigth"></a> </td>
+         <td><a href="conctact.html"> CONTACT <img src="co.png" width="50px" align="rigth"></a> </td>
+        
+        </tr>
+        
+            
+        
+               
+        </table>    
+         
+        </div>
+        
+          
+      
+      </header>
+      
+      <nav>
+      
+      
+      </nav>
+
+      <form method="post" action="contrat.php">
+   <center> <h3><U>CONTRACT </U></h3> </center> 
+   <div class="tab">
+   <table border="0">
+    
+
+
+   <tr>
+
+        <td> <label for="name"  >numero contrat:</label></td>
+       <td>  <input type="number" name="num_c"  ></td> 
+         </tr>
+         <tr>
+          <td> <label for="name"  > Date du contrat:</label></td> 
+         <td>   <input type="date" name="date_contrat"></td> 
+            </tr>
+         <tr>
+       <td> <label for="name"  >obligation:</label></td> 
+      <td>   <input type="checkbox" name="obligation[]" value="Assurance" required>Assurance
+        <input type="checkbox" name="obligation[]" value="frais supplementaire en cas de retard" required>frais supplementaire en cas de retard
+        <input type="checkbox" name="obligation[]" value="frais de livraison " required>frais de livraison 
+    </td> 
+         </tr>
+         <tr>
+          <td><label for="name"  >Carte d identite:</label></td>
+        <td> <input type="number"  name="carte_ID" placeholder="votre carte d identite ">   </td>  
+        </tr>
+
+
+<tr>
+  <td>
+      <input type="reset" name="reset" value="Annuler">
+      <input type="submit" name="submit" value="Accepter">
+  </td>
+</tr>
+</table>
+</div>
+
+
+</form>
+
+
+ </body>
+</html>

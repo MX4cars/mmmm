@@ -1,0 +1,292 @@
+body{
+
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+    font-style:italic;
+    font-weight: 200;
+        font-size: 30px;
+        margin: 0px;
+        padding: 0px;
+
+background-size: 100%;
+
+      
+    }
+    h1{
+      font-size: 70px;
+      font-weight: normal;  
+      text-align: start;
+      color:black;
+     
+      margin: 20px 0px 0px 0px;
+ 
+
+   
+    }
+   
+
+    nav {
+        width: 160%;
+        
+
+      
+    }
+    nav ul {
+        
+        margin: 0px;
+        padding: 0px;
+       
+        
+    }
+    nav li{
+        list-style-type: none;
+        float: right;
+        width: 100%;
+  
+    }
+    nav a{
+        display:inline-block;
+        text-decoration:none;
+    
+        padding: 20px 30px;
+        color:black;
+        text-transform: uppercase;
+        font-size: 15px;
+        -webkit-text-stroke: 2px black;
+        color: transparent;
+
+    }
+
+
+    
+ 
+
+   
+    nav li :hover a{
+        padding: 15px 30px 20px 30px;
+      
+    
+    }
+    @media screen and ( max-width:780px)  {
+        header {
+            height: 5px;
+        }
+  
+        nav li a{
+    
+    font-size: 12px;
+    padding: 20px;
+    
+
+    
+    
+    
+        }
+            
+        nav li :hover a {
+            padding: 5px 0px 10px 10px;
+        }
+    }
+ 
+    p{
+        text-align: left;
+        text-shadow: rgb(43, 226, 55);
+        text-transform: capitalize;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+    
+    }
+    .p1{
+        text-align: left;
+    }
+
+  body#acceuile{
+    background-image: url("kali.jpg");
+    background-repeat: no-repeat;
+ 
+  }
+  body#page1{
+
+    background-image: url("so.jpg");
+    background-repeat: no-repeat;
+ 
+  }
+  body#aff{
+    background-image: url("pah.jpg");
+    background-repeat: no-repeat;
+ 
+  }
+  body#ins{
+    background-image: url("pah.jpg");
+    background-repeat: no-repeat;
+ 
+  }
+  body#sup{
+    background-image: url("pah.jpg");
+    background-repeat: no-repeat;
+ 
+  }
+
+  body#mod{
+    background-image: url("pah.jpg");
+    background-repeat: no-repeat;
+ 
+  }
+  body#asa{
+    background-image: url("pah.jpg");
+    background-repeat: no-repeat;
+ 
+  }
+  body#om{
+    background-image: url("so.jpg");
+    background-repeat: no-repeat;
+
+  }
+  body#more{
+    background-image: url("so.jpg");
+    background-repeat: no-repeat;
+
+  }
+  
+  body#mo{
+    background-image: url("so.jpg");
+    background-repeat: no-repeat;
+
+  }
+  body#res{
+    background-image: url("so.jpg");
+    background-repeat: no-repeat;
+
+  }
+  body#pay{
+    background-image: url("mari.jpg");
+    background-repeat: no-repeat;
+
+  }
+
+
+  .mol{
+   text-align: start;
+   text-decoration: none;
+   display: inline-block;
+   color: white;
+   font-size: 15px;
+   border: 2px solid pink;
+   padding: 14px 30px;
+   border-radius: 20px;
+   margin-top: 50px;
+ 
+   background-color: rgba(82, 188, 217, 0.2);
+
+
+  }
+  .mol h2{
+font-size: 23px;
+color: black;
+font-weight: 100;
+
+
+  }
+
+h3{
+    text-align: left;
+    text-decoration: dotted;
+    text-decoration-color: blue;
+    color: green;
+    font-size: 20px;
+    
+
+}
+h2{
+text-align: center;
+color: gray;
+font-size: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-style: italic;
+
+}
+.con{
+
+    text-align: start;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+  
+    background-color: rgba(26, 182, 125, 0.4);
+ 
+ 
+   
+}
+h4{
+
+    color:white;
+}
+.tab{
+
+
+
+    text-align: start;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+  
+    background-color: rgba(197, 214, 11, 0.3);
+ 
+ 
+
+
+}
+.mari{
+
+
+
+
+  
+    background-color: rgba(214, 167, 11, 0.4);
+ 
+ 
+
+}
+
+
+.mop table {
+
+    position: right;
+    text-decoration: none;
+   
+    font-size: 15px;
+    
+    padding: 5px 5px;
+    border-radius: 20px;
+    margin-top: 50px;
+    
+   background-color: rgba(82, 213, 217, 0.2);
+}
+.hre{
+text-shadow: 20px;
+    border: 20px;
+}
+.image img{
+  width: 400px;
+
+}
+ #image img{
+  width: 400px;
+}
+.im img{
+  width: 400px;
+  padding:2%;
+  vertical-align: middle;
+
+}
